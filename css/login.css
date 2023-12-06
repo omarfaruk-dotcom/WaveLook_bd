@@ -1,0 +1,44 @@
+.hero-part{
+    display: flex;
+}
+.space{
+    border: none;
+}
+.ad{
+    width: 50%;
+    background-color: red;
+}
+.login-box{
+    width: 50%;
+    text-align: center;
+}
+
+.login-box h5{
+    color: red;
+    padding: 2rem;
+}
+h6{
+    margin-bottom: 30px;
+}
+
+.login-box input{
+    margin: 10px;
+    padding: 20px;
+    width: 250px;
+    text-align: center;
+    border-radius: .5rem;
+    background-color: rgb(210, 215, 210);
+    border: none;
+}
+
+.login-box a{
+    font-size: small;
+}
+
+.login-box button{
+    width: 200px;
+    height: 40px;
+    border: none;
+    background-color: rgb(255, 125, 125);
+    border-radius: .5rem;
+}

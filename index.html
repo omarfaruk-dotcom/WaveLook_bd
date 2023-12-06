@@ -1,0 +1,284 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="image\decoration\WaveLookLogo.png">
+    <link rel="stylesheet" href="css\index.css">
+    <title>Home</title>
+</head>
+
+<body>
+    <header>
+        <div class="navber">
+            <div class="logo">
+                <div class="logo-pic">
+                    <img src="image\decoration\WaveLookLogo.png" alt="Image Not Found...">
+                </div>
+                <h2><b class="border">WAVE LOOK</b></h2>
+            </div>
+            <div class="panal">
+                <h4>
+                    <p class="border"><a href="index.html">HOME</a></p>
+                    <!--<p class="border"><a href="login.html">LOG IN</a></p>-->
+                    <p class="border"><a href="about.html">ABOUT</a></p>
+                    <p class="border"><a href="shop.html">SHOP</a></p>
+                    <p class="border"><a href="contact.html">CONTACT</a></p>
+                </h4>
+            </div>
+        </div>
+    </header>
+    <div class="hero-part">
+
+    </div>
+    <div class="notices">
+        <div class="shop">
+            <div class="shoping border">
+                <br>
+                SHOP NOW
+            </div>
+        </div>
+        <div class="space">
+
+        </div>
+        <div class="product-box">
+            <div class="product-sample">
+                <div class="products border">
+                    <img src="image\productImg\product_1.jpeg" alt="Image Not Found...">
+                    Gents
+                </div>
+                <div class="products border">
+                    <img src="image\productImg\product_2.jpeg" alt="Image Not Found...">
+                    Ladies
+                </div>
+                <div class="products border">
+                    <img src="image\productImg\product_3.jpeg" alt="Image Not Found...">
+                    Electronics
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="catagory-box slider">
+        <div class="catagories">
+            <table>
+                <tr>
+                    <th>
+                        siam
+                    </th>
+                </tr>
+                <tr>
+                    <td colspan="2">
+                        <img src="image\productImg\product_4.jpeg" alt="Image Not Found...">
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <img src="image\productImg\product_5.jpeg" alt="Image Not Found...">
+                    </td>
+                    <td>
+                        <img src="image\productImg\product_6.jpeg" alt="Image Not Found...">
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <img src="image\productImg\product_7.jpeg" alt="Image Not Found...">
+                    </td>
+                    <td>
+                        <img src="image\productImg\product_8.jpeg" alt="Image Not Found...">
+                    </td>
+                </tr>
+            </table>
+        </div>
+        <div class="catagories">
+            <table>
+                <tr>
+                    <th>
+                        siam
+                    </th>
+                </tr>
+                <tr>
+                    <td colspan="2">
+                        <img src="image\productImg\product_9.jpeg" alt="Image Not Found...">
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <img src="image\productImg\product_10.jpeg" alt="Image Not Found...">
+                    </td>
+                    <td>
+                        <img src="image\productImg\product_11.jpeg" alt="Image Not Found...">
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <img src="image\productImg\product_12.jpeg" alt="Image Not Found...">
+                    </td>
+                    <td>
+                        <img src="image\productImg\product_13.jpeg" alt="Image Not Found...">
+                    </td>
+                </tr>
+            </table>
+        </div>
+        <div class="catagories">
+            <table>
+                <tr>
+                    <th>
+                        siam
+                    </th>
+                </tr>
+                <tr>
+                    <td colspan="2">
+                        <img src="image\productImg\product_14.jpeg" alt="Image Not Found...">
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <img src="image\productImg\product_15.jpeg" alt="Image Not Found...">
+                    </td>
+                    <td>
+                        <img src="image\productImg\product_16.jpeg" alt="Image Not Found...">
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <img src="image\productImg\product_17.jpeg" alt="Image Not Found...">
+                    </td>
+                    <td>
+                        <img src="image\productImg\product_18.jpeg" alt="Image Not Found...">
+                    </td>
+                </tr>
+            </table>
+        </div>
+        <div class="catagories">
+            <table>
+                <tr>
+                    <th>
+                        siam
+                    </th>
+                </tr>
+                <tr>
+                    <td colspan="2">
+                        <img src="image\productImg\product_19.jpeg" alt="Image Not Found...">
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <img src="image\productImg\product_20.jpeg" alt="Image Not Found...">
+                    </td>
+                    <td>
+                        <img src="image\productImg\product_21.jpeg" alt="Image Not Found...">
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <img src="image\productImg\product_22.jpeg" alt="Image Not Found...">
+                    </td>
+                    <td>
+                        <img src="image\productImg\product_23.jpeg" alt="Image Not Found...">
+                    </td>
+                </tr>
+            </table>
+        </div>
+    </div>
+    <footer>
+        <div class="all-matarial">
+            <br>
+            &#169; Copy Rights Are Reserved
+        </div>
+    </footer>
+    <script>
+        const productsContainer = document.querySelector('.catagories-box');
+        let isDragging = false;
+        let startX;
+        let scrollLeft;
+
+        productsContainer.addEventListener('mousedown', (e) => {
+            isDragging = true;
+            startX = e.pageX - productsContainer.offsetLeft;
+            scrollLeft = productsContainer.scrollLeft;
+            productsContainer.style.cursor = 'grabbing';
+        });
+
+        productsContainer.addEventListener('mouseup', () => {
+            isDragging = false;
+            productsContainer.style.cursor = 'grab';
+        });
+
+        productsContainer.addEventListener('mousemove', (e) => {
+            if (!isDragging) return;
+            e.preventDefault();
+            const x = e.pageX - productsContainer.offsetLeft;
+            const walk = (x - startX) * 3; // Adjust the multiplier for faster/slower scrolling
+            productsContainer.scrollLeft = scrollLeft - walk;
+        });
+
+        // Prevent selecting text when dragging
+        productsContainer.addEventListener('selectstart', (e) => {
+            e.preventDefault();
+        });
+
+        const maleProductsContainer = document.querySelector('.products2');
+        let isMaleDragging = false;
+        let maleStartX;
+        let maleScrollLeft;
+
+        maleProductsContainer.addEventListener('mousedown', (e) => {
+            isMaleDragging = true;
+            maleStartX = e.pageX - maleProductsContainer.offsetLeft;
+            maleScrollLeft = maleProductsContainer.scrollLeft;
+            maleProductsContainer.style.cursor = 'grabbing';
+        });
+
+        maleProductsContainer.addEventListener('mouseup', () => {
+            isMaleDragging = false;
+            maleProductsContainer.style.cursor = 'grab';
+        });
+
+        maleProductsContainer.addEventListener('mousemove', (e) => {
+            if (!isMaleDragging) return;
+            e.preventDefault();
+            const x = e.pageX - maleProductsContainer.offsetLeft;
+            const walk = (x - maleStartX) * 3; // Adjust the multiplier for faster/slower scrolling
+            maleProductsContainer.scrollLeft = maleScrollLeft - walk;
+        });
+
+        // Prevent selecting text when dragging
+        maleProductsContainer.addEventListener('selectstart', (e) => {
+            e.preventDefault();
+        });
+
+        const categoryContainer = document.querySelector('.category');
+        let isCategoryDragging = false;
+        let categoryStartX;
+        let categoryScrollLeft;
+
+        categoryContainer.addEventListener('mousedown', (e) => {
+            isCategoryDragging = true;
+            categoryStartX = e.pageX - categoryContainer.offsetLeft;
+            categoryScrollLeft = categoryContainer.scrollLeft;
+            categoryContainer.style.cursor = 'grabbing';
+        });
+
+        categoryContainer.addEventListener('mouseup', () => {
+            isCategoryDragging = false;
+            categoryContainer.style.cursor = 'grab';
+        });
+
+        categoryContainer.addEventListener('mousemove', (e) => {
+            if (!isCategoryDragging) return;
+            e.preventDefault();
+            const x = e.pageX - categoryContainer.offsetLeft;
+            const walk = (x - categoryStartX) * 3; // Adjust the multiplier for faster/slower scrolling
+            categoryContainer.scrollLeft = categoryScrollLeft - walk;
+        });
+
+        // Prevent selecting text when dragging
+        categoryContainer.addEventListener('selectstart', (e) => {
+            e.preventDefault();
+        });
+
+    </script>
+</body>
+
+</html>

@@ -1,0 +1,78 @@
+*{
+    background-color: rgb(254, 244, 232);
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    border: border-box;
+}
+.navber{
+    margin: 4rem;
+    align-items: center;
+    height: 6rem;
+    display: flex;
+    justify-content: space-evenly;
+    border-bottom: 2px solid orchid;
+}
+.logo{
+    display: flex;
+}
+.logo-pic img{
+    height: 2rem;
+    width: 3rem;
+    margin-right: 1rem;
+}
+.panal p{
+    display: inline;
+    margin: 1rem;
+}
+.border:hover{
+    border : 2px solid green;
+    border-radius: .25rem;
+}
+.home{
+    color: rgb(226, 161, 161);
+}
+.all-matarial{
+    text-align: center;
+    background-color: red;
+    margin-top: 11rem;
+    height: 5rem;
+}
+
+.intro{
+    width: 100%;
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+    display: flex;
+    justify-content: space-evenly;
+}
+.orderdiv{
+    display: flex;
+    justify-content: space-evenly;
+}
+.personal-info form{
+    border-radius: .5rem;
+    background-color: rgb(213, 198, 182);
+    text-align: center;
+    padding: 6rem;
+    border: 1px solid red;
+}
+.personal-info form p, .personal-info form a,.personal-info form b{
+    background-color: rgb(213, 198, 182);
+}
+.personal-info form input{
+    background-color: rgb(213, 198, 182);
+    height: 30px;
+    margin: 1rem;
+    text-align: center;
+    border: none;
+    border-bottom: 1px solid red;
+}
+.personal-info form button{
+    margin: 2rem;
+    padding-left: 2rem;
+    padding-right: 2rem;
+    padding-top: .5rem;
+    padding-bottom: .5rem;
+    border-radius: .25rem;
+    background-color: red;
+}

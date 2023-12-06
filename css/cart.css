@@ -1,0 +1,82 @@
+*{
+    background-color: rgb(254, 244, 232);
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    border: border-box;
+}
+.navber{
+    margin: 4rem;
+    align-items: center;
+    height: 6rem;
+    display: flex;
+    justify-content: space-evenly;
+    border-bottom: 2px solid orchid;
+}
+.logo{
+    display: flex;
+}
+.logo-pic img{
+    height: 2rem;
+    width: 3rem;
+    margin-right: 1rem;
+}
+.panal p{
+    display: inline;
+    margin: 1rem;
+}
+.border:hover{
+    border : 2px solid green;
+    border-radius: .25rem;
+}
+.home{
+    color: rgb(226, 161, 161);
+}
+
+input{
+    border-radius: .25rem;
+    height: 20px;
+    width: 50px;
+    text-align: center;
+}
+
+.order{
+    background-color: red;
+    text-align: center;
+    justify-content: space-around;
+}
+.order button{
+    border-radius: 1rem;
+    height: 50px;
+    width: 150px;
+    font-size: 20px;
+    font-weight: 700;
+}
+.all-matarial{
+    text-align: center;
+    background-color: red;
+    margin-top: 11rem;
+    height: 5rem;
+}
+
+.cart-product-header{
+    width: 100%;
+    display: flex;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    background-color: red;
+}
+.cart-product-header div{
+    width: 33%;
+    border: 1px solid red;
+    text-align: right;
+    background-color: red;
+}
+.cart-of-product {
+    display: flex;
+    margin-bottom: 1.5rem;
+}
+.cart-of-product div{
+    width: 97%;
+    background-color: rgb(244, 127, 127);
+    text-align: right;
+}

@@ -1,0 +1,68 @@
+*{
+    background-color: rgb(254, 244, 232);
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    border: border-box;
+}
+.navber{
+    margin: 4rem;
+    align-items: center;
+    height: 6rem;
+    display: flex;
+    justify-content: space-evenly;
+    border-bottom: 2px solid orchid;
+}
+.logo{
+    display: flex;
+}
+.logo-pic img{
+    height: 2rem;
+    width: 3rem;
+    margin-right: 1rem;
+}
+.panal p{
+    display: inline;
+    margin: 1rem;
+}
+
+.heropart{
+    text-align: center;
+}
+.notices{
+    display: flex;
+}
+.ads{
+    width: 50%;
+    background-color: green;
+    opacity: 0;
+}
+.notice{
+    background-color: red;
+    height: 20rem;
+    width: 50%;
+    align-content: right;
+    border-radius: .25rem;
+    margin: 2rem;
+}
+.read-more{
+    text-align: center;
+    margin-left: 80%;
+    background-color: rgb(171, 171, 157);
+    width: 130px;
+    height: 60px;
+    border-radius: 1rem;
+    font-size: large;
+}
+.all-matarial{
+    text-align: center;
+    background-color: red;
+    margin-top: 11rem;
+    height: 5rem;
+}
+.border:hover{
+    border : 2px solid green;
+    border-radius: .25rem;
+}
+.about{
+    color: red;
+}

@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css\contact.css">
+    <link rel="icon" href="image\decoration\WaveLookLogo.png">
+    <title>Contact</title>
+</head>
+
+<body>
+    <header>
+        <div class="navber">
+            <div class="logo">
+                <div class="logo-pic">
+                    <img src="image\decoration\WaveLookLogo.png" alt="Image Not Found...">
+                </div>
+                <h2><b class="border">WAVE LOOK</b></h2>
+            </div>
+            <div class="panal">
+                <h4>
+                    <p class="border"><a href="index.html">HOME</a></p>
+                    <!--<p class="border"><a href="login.html">LOG IN</a></p>-->
+                    <p class="border"><a href="about.html">ABOUT</a></p>
+                    <p class="border"><a href="shop.html">SHOP</a></p>
+                    <p class="border"><a href="contact.html">CONTACT</a></p>
+                </h4>
+            </div>
+        </div>
+    </header>
+    <div class="navber2">
+        <div class="our-socialmedias">
+            <p>CONTACT</p>
+            <div class="mediabox">
+                <a href=""><img src="image\decoration\fbicon.png" alt="Image Not Found...">FaceBook</a>
+            </div>
+        </div>
+        <div class="comlainbox">
+            <form action="php/contact.php" method="post">
+                <input type="name" name="name" placeholder="NAME">
+                <input type="email" name="email" placeholder="E-MAIL">
+                <input type="text" name="subject" placeholder="SUBJECT">
+                <label for="message"></label>
+                <br>
+                <textarea placeholder="Massage" class="message" name="message" rows="17" cols="50"></textarea>
+                <button>Submit</button>
+            </form>
+        </div>
+    </div>
+    <footer>
+        <div class="all-matarial">
+            <br>
+            &#169; Copy Rights Are Reserved
+        </div>
+    </footer>
+</body>
+
+</html>
